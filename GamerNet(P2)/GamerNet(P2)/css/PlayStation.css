@@ -1,0 +1,53 @@
+body{
+    background-color: #0d62b0;
+}
+.Arriba{
+    color: black;
+    text-align: center;
+    font-family: Fugaz system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: x-large;
+    background-color: white;
+}
+.MenuPrincipal{
+    color: black;
+    text-align: center;
+    font-family: Fugaz system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: xx-large;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+a{
+    margin: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.Imagenes,.Arriba{
+    display: flex;
+    justify-content: space-evenly;
+    gap:100px;
+}
+h1,h2,h3{
+    font-family: Fugaz system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:black;
+    text-shadow: 2px  0px 0px white,
+                 0px  2px 0px white,
+                -2px  0px 0px white,
+                 0px -2px 0px white;
+    text-align: center; 
+}
+p{
+    font-family: Fugaz system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    color:white;
+}
+footer{
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+}
